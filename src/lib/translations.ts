@@ -1,0 +1,216 @@
+export type Language = "fr" | "de";
+
+export const translations = {
+  fr: {
+    nav: {
+      about: "À propos",
+      services: "Services",
+      gallery: "Galerie",
+      hours: "Horaires",
+      contact: "Contact",
+      call: "Appeler",
+      profession: "PEINTURE & ISOLATION",
+    },
+    hero: {
+      badge: "Plus de 25 ans d'expertise",
+      title1: "Transformation",
+      title2: "de vos espaces",
+      description: "Peinture professionnelle, isolation et rénovation pour votre maison et façade. Qualité et savoir-faire depuis 1999.",
+      sendEmail: "Envoyer un email",
+      location: "Broc, Suisse",
+    },
+    about: {
+      label: "À propos",
+      title1: "Chat Lamala",
+      title2: "Peinture & Isolation",
+      p1: "Avec plus de 25 ans d'expérience, nous couvrons principalement la région de Bulle et la zone du Lac Léman. Notre expertise reconnue et notre engagement envers la qualité nous permettent de transformer vos espaces intérieurs et extérieurs.",
+      p2: "Nous utilisons toujours des peintures de haute qualité et respectons les normes les plus strictes pour assurer la durabilité et la beauté de nos réalisations.",
+      stat1: "25+ ans",
+      stat2: "Expertises",
+      stat3: "Satisfaction",
+      features: [
+        { title: "Peinture", description: "Revêtements muraux, peintures décoratives et finitions spécialisées" },
+        { title: "Isolation", description: "Isolation périphérique pour optimiser l'efficacité énergétique" },
+        { title: "Rénovation", description: "Transformation complète de chalets, portes, fenêtres et structures" },
+        { title: "Expertise", description: "Plâtrerie, stucco et finitions rustiques haut de gamme" },
+      ],
+    },
+    services: {
+      label: "Nos services",
+      title: "Services professionnels",
+      description: "Nous offrons une gamme complète de services en peinture et isolation adaptés à vos besoins.",
+      items: [
+        {
+          title: "Peinture d'intérieur",
+          description: "Revêtements muraux, peintures décoratives (Scandatex, peintures à la chaux, Stucco Antico) et finitions haut de gamme",
+        },
+        {
+          title: "Peinture de façade",
+          description: "Façades et revêtements muraux professionnels avec peintures de qualité supérieure",
+        },
+        {
+          title: "Plâtrerie spécialisée",
+          description: "Plâtre antique (Marmoran, rustique), finitions intérieures et extérieures",
+        },
+        {
+          title: "Rénovations complètes",
+          description: "Chalets, portes, portes de garage, volets, balustrades, clôtures, fondations et plus",
+        },
+        {
+          title: "Isolation périphérique",
+          description: "Solutions d'isolation pour améliorer l'efficacité énergétique de votre propriété",
+        },
+        {
+          title: "Fenêtres et volets",
+          description: "Remplacement et rénovation de fenêtres, volets et structures connexes",
+        },
+      ],
+    },
+    gallery: {
+      label: "Nos réalisations",
+      title: "Galerie",
+      description: "Découvrez nos projets de peinture et d'isolation réalisés avec expertise et soin.",
+    },
+    hours: {
+      label: "Horaires",
+      title: "Heures d'ouverture",
+      header: "Heures d'ouverture",
+      today: "Aujourd'hui",
+      closed: "Fermé",
+      days: ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"],
+    },
+    contact: {
+      label: "Contact",
+      title1: "Besoin de",
+      title2: "conseils?",
+      description: "Contactez-nous pour un devis, une demande de prix ou un conseil personnalisé. Nous sommes heureux de vous assister.",
+      phone: "Téléphone",
+      email: "Email",
+      address: "Adresse",
+      cta: "Nous contacter",
+      callNow: "Appeler maintenant",
+    },
+    footer: {
+      tagline: "Peinture & Isolation",
+      description: "Chat Lamala Sàrl - Experts en peinture et isolation depuis plus de 25 ans",
+      navigation: "Navigation",
+      about: "À propos",
+      copyright: "Tous droits réservés.",
+    },
+    disclaimer: {
+      title: "Aperçu du site",
+      items: [
+        "Ce site web est un brouillon de prévisualisation",
+        "Il n'est pas référencé sur Google",
+        "Il peut contenir des erreurs ou des inexactitudes",
+      ],
+      button: "J'ai compris",
+    },
+  },
+  de: {
+    nav: {
+      about: "Über uns",
+      services: "Leistungen",
+      gallery: "Galerie",
+      hours: "Öffnungszeiten",
+      contact: "Kontakt",
+      call: "Anrufen",
+      profession: "MALEREI & DÄMMUNG",
+    },
+    hero: {
+      badge: "Über 25 Jahre Erfahrung",
+      title1: "Verwandlung",
+      title2: "Ihrer Räume",
+      description: "Professionelle Malerei, Dämmung und Renovierung für Ihr Haus und Ihre Fassade. Qualität und Handwerkskunst seit 1999.",
+      sendEmail: "E-Mail senden",
+      location: "Broc, Schweiz",
+    },
+    about: {
+      label: "Über uns",
+      title1: "Chat Lamala",
+      title2: "Malerei & Dämmung",
+      p1: "Mit über 25 Jahren Erfahrung decken wir hauptsächlich die Region Bulle und das Genferseegebiet ab. Unsere anerkannte Expertise und unser Engagement für Qualität ermöglichen es uns, Ihre Innen- und Außenräume zu transformieren.",
+      p2: "Wir verwenden immer hochwertige Farben und halten die höchsten Standards ein, um die Haltbarkeit und Schönheit unserer Arbeiten zu gewährleisten.",
+      stat1: "25+ Jahre",
+      stat2: "Fachgebiete",
+      stat3: "Zufriedenheit",
+      features: [
+        { title: "Malerei", description: "Wandverkleidungen, dekorative Farben und spezialisierte Oberflächenbehandlungen" },
+        { title: "Dämmung", description: "Umfassende Isolierung zur Verbesserung der Energieeffizienz" },
+        { title: "Renovierung", description: "Komplette Umgestaltung von Chalets, Türen, Fenstern und Strukturen" },
+        { title: "Expertise", description: "Putzerarbeiten, Stucco und rustikale Oberflächenbehandlungen aus hochwertigen Materialien" },
+      ],
+    },
+    services: {
+      label: "Unsere Leistungen",
+      title: "Professionelle Dienstleistungen",
+      description: "Wir bieten ein umfassendes Spektrum an Mal- und Dämmbäre Dienstleistungen für Ihre Anforderungen.",
+      items: [
+        {
+          title: "Innenmalerei",
+          description: "Wandverkleidungen, dekorative Farben (Scandatex, Kalkfarben, Stucco Antico) und hochwertige Oberflächenbehandlungen",
+        },
+        {
+          title: "Fassadenmalerei",
+          description: "Professionelle Fassaden- und Wandverkleidungen mit hochwertigen Farben",
+        },
+        {
+          title: "Spezialisierte Putzerarbeiten",
+          description: "Antikputz (Marmoran, rustikal), Innen- und Außenausführungen",
+        },
+        {
+          title: "Komplette Renovierungen",
+          description: "Chalets, Türen, Garagentore, Läden, Balustrade, Zäune, Fundamente und mehr",
+        },
+        {
+          title: "Umfassende Dämmung",
+          description: "Isolierungslösungen zur Verbesserung der Energieeffizienz Ihrer Immobilie",
+        },
+        {
+          title: "Fenster und Läden",
+          description: "Austausch und Renovierung von Fenstern, Läden und damit verbundenen Strukturen",
+        },
+      ],
+    },
+    gallery: {
+      label: "Unsere Arbeiten",
+      title: "Galerie",
+      description: "Entdecken Sie unsere Projekte in Malerei und Dämmung, die mit Expertise und Sorgfalt durchgeführt wurden.",
+    },
+    hours: {
+      label: "Öffnungszeiten",
+      title: "Öffnungszeiten",
+      header: "Öffnungszeiten",
+      today: "Heute",
+      closed: "Geschlossen",
+      days: ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"],
+    },
+    contact: {
+      label: "Kontakt",
+      title1: "Benötigen Sie",
+      title2: "Beratung?",
+      description: "Kontaktieren Sie uns für ein Angebot, eine Preisanfrage oder persönliche Beratung. Wir helfen Ihnen gerne weiter.",
+      phone: "Telefon",
+      email: "E-Mail",
+      address: "Adresse",
+      cta: "Kontaktieren Sie uns",
+      callNow: "Jetzt anrufen",
+    },
+    footer: {
+      tagline: "Malerei & Dämmung",
+      description: "Chat Lamala Sàrl - Experten für Malerei und Dämmung seit über 25 Jahren",
+      navigation: "Navigation",
+      about: "Über uns",
+      copyright: "Alle Rechte vorbehalten.",
+    },
+    disclaimer: {
+      title: "Website-Vorschau",
+      items: [
+        "Diese Website ist eine Entwurfsvorschau",
+        "Sie ist nicht in Google indexiert",
+        "Sie kann Fehler oder Ungenauigkeiten enthalten",
+      ],
+      button: "Verstanden",
+    },
+  },
+};
